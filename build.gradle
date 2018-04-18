@@ -2,7 +2,6 @@ plugins {
     id 'com.typelead.eta' version '0.5.4'
 }
 
-apply plugin: 'com.typelead.eta'
 apply plugin: 'application'
 
 eta {
