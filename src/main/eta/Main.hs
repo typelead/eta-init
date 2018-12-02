@@ -1,3 +1,3 @@
-import Primes
+import Control.Concurrent.Fiber
 
-main = putStrLn $ "The 101st prime is " ++ show (primes !! 100)
+main = return ()

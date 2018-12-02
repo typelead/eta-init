@@ -10,4 +10,7 @@ eta {
 
 dependencies {
   compile eta('base:4.11.1.0')
+  compile eta(package:  'eta-fibers-new',
+              location: 'https://github.com/rahulmutt/eta-fibers-new',
+              branch:   'master')
 }
